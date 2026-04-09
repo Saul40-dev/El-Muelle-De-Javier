@@ -22,7 +22,7 @@ const FooterSection = () => {
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                +51 906 387 511 / 993 785 799
+                +51 934 297 774 / 993 785 799
               </p>
               <p className="flex items-center gap-2">
                 <Clock className="w-4 h-4 flex-shrink-0" />

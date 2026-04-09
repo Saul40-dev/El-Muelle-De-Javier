@@ -4,7 +4,6 @@ import AboutSection from "@/components/AboutSection";
 import MenuSection from "@/components/MenuSection";
 import FeaturedDishes from "@/components/FeaturedDishes";
 import ReviewsSection from "@/components/ReviewsSection";
-import GallerySection from "@/components/GallerySection";
 import ReservationSection from "@/components/ReservationSection";
 import LocationSection from "@/components/LocationSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -19,7 +18,6 @@ const Index = () => {
       <FeaturedDishes />
       <MenuSection />
       <ReviewsSection />
-      <GallerySection />
       <ReservationSection />
       <LocationSection />
       <FooterSection />
