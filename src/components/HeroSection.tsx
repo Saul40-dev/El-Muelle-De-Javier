@@ -13,7 +13,7 @@ const HeroSection = () => {
         <img
           src={cevicheImg}
           alt="Ceviche peruano fresco"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover max-w-full"
           width={800}
           height={600}
         />

@@ -7,7 +7,7 @@ const FooterSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <img src={logo} alt="El Muelle de Javier" className="h-16 w-auto mb-4" />
+            <img src={logo} alt="El Muelle de Javier" className="h-16 w-auto max-w-full mb-4" />
             <p className="text-primary-foreground/60 font-body text-sm leading-relaxed">
               Cevichería y restaurante de comida marina reconocido en Carabayllo por su sabor y frescura.
             </p>

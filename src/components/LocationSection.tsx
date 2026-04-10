@@ -34,7 +34,7 @@ const LocationSection = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5!2d-77.03!3d-11.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDUxJzAwLjAiUyA3N8KwMDEnNDguMCJX!5e0!3m2!1ses!2spe!4v1"
               width="100%"
               height="100%"
-              style={{ border: 0 }}
+              style={{ border: 0, maxWidth: '100%' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -68,8 +68,8 @@ const LocationSection = () => {
               <div>
                 <h3 className="font-display text-lg font-bold text-foreground">Teléfonos</h3>
                 <div className="space-y-1 mt-1">
-                  <a href="tel:+51906387511" className="text-secondary hover:underline font-body text-sm block">
-                    +51 906 387 511
+                  <a href="tel:+51934297774" className="text-secondary hover:underline font-body text-sm block">
+                    +51 934 297 774
                   </a>
                   <a href="tel:+51993785799" className="text-secondary hover:underline font-body text-sm block">
                     +51 993 785 799

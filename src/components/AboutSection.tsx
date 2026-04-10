@@ -75,14 +75,14 @@ const AboutSection = () => {
               <img
                 src={chefImg}
                 alt="Chef Javier preparando ceviche fresco"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-cover max-w-full"
                 loading="lazy"
                 width={800}
                 height={800}
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-2xl shadow-ocean">
-              <p className="font-display text-3xl font-bold text-secondary">+10</p>
+            <div className="absolute -bottom-6 left-4 md:-left-6 bg-card p-4 md:p-6 rounded-2xl shadow-ocean max-w-[calc(100%-2rem)]">
+              <p className="font-display text-2xl md:text-3xl font-bold text-secondary">+10</p>
               <p className="text-sm text-muted-foreground font-body">Años de experiencia</p>
             </div>
           </motion.div>
