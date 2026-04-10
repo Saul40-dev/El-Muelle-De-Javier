@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   const message = encodeURIComponent("Hola, quiero hacer una reserva en El Muelle de Javier.");
-  const url = `https://wa.me/51934297774?text=${message}`;
+  const url = `https://wa.me/51906387511?text=${message}`;
 
   return (
     <a
